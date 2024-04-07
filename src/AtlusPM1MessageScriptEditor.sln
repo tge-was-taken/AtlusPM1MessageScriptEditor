@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlusPM1MessageScriptEditor", "AtlusPM1MessageScriptEditor\AtlusPM1MessageScriptEditor.csproj", "{F3BD58D7-46F6-4A44-82CC-B18C831207AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlusScriptLibrary", "..\externals\Atlus-Script-Tools\Source\AtlusScriptLibrary\AtlusScriptLibrary.csproj", "{62EE486F-AE33-4DBB-AC4C-409A22CB04AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "externals", "externals", "{8D8ABC1D-D816-4773-963A-F5CD5687EE1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{F3BD58D7-46F6-4A44-82CC-B18C831207AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3BD58D7-46F6-4A44-82CC-B18C831207AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3BD58D7-46F6-4A44-82CC-B18C831207AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62EE486F-AE33-4DBB-AC4C-409A22CB04AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EE486F-AE33-4DBB-AC4C-409A22CB04AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EE486F-AE33-4DBB-AC4C-409A22CB04AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EE486F-AE33-4DBB-AC4C-409A22CB04AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62EE486F-AE33-4DBB-AC4C-409A22CB04AD} = {8D8ABC1D-D816-4773-963A-F5CD5687EE1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F5ED7AC-3EAF-4A5E-9705-38FE92B7B9C2}

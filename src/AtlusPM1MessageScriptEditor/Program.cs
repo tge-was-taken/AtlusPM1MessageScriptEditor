@@ -45,11 +45,7 @@ namespace AtlusPM1MessageScriptEditor
             }
 
             var game = args.Length > 1 ? args[ 1 ].ToLowerInvariant() : null;
-            Encoding encoding = null;
-            if ( game == "p3" )
-                encoding = new Persona3Encoding();
-            else if ( game == "p4" )
-                encoding = new Persona4Encoding();
+            var encoding = AtlusEncoding.GetByName( game );
 
             if ( path.EndsWith( "pm1", StringComparison.InvariantCultureIgnoreCase ) )
             {
